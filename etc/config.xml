@@ -1,0 +1,11 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <reviewMailer>
+            <email>
+                <enable>0</enable>
+                <recipient_email>test@gmail.com</recipient_email>
+                <email_template>reviewMailer_email_email_template</email_template>
+            </email>
+        </reviewMailer>
+    </default>
+</config>
